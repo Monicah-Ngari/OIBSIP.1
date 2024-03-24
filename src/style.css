@@ -1,0 +1,42 @@
+body {
+    font-family: "Poppins",
+        sans-serif;
+    padding: 20px;
+
+}
+
+.about-me {
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(224, 211, 231);
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+h1 {
+    margin: 20px;
+    color: rgb(101, 45, 45);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+
+}
+
+@media (max-width: 900px) {
+
+
+    img {
+        width: 210px;
+        height: 210px;
+        object-fit: cover;
+    }
+
+}
