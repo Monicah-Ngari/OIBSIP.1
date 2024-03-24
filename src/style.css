@@ -20,23 +20,13 @@ h1 {
 
 img {
     width: 300px;
-    height: 300px;
+    height: 350px;
     object-fit: cover;
+    padding: 10px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-
-}
-
-@media (max-width: 900px) {
-
-
-    img {
-        width: 210px;
-        height: 210px;
-        object-fit: cover;
-    }
 
 }
